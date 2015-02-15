@@ -462,12 +462,12 @@ h4 small,
   padding-left: 9px;
   margin: 40px 0 40px;
   border-left: 2px solid #74bdd5;
-  /*border-bottom: 1px solid #74bdd5;*/
+  border-bottom: 0px solid #74bdd5;*/
 }
 .page-content{
 	padding-left: 15px;
 	padding-right: 15px;
-	margin-bottom: 80px;
+  padding-bottom: 15px;
 }
 ul,
 ol {
@@ -5921,3 +5921,18 @@ td.visible-print {
   border-top: 1px solid  #000000;
   border-left: 1px solid  #000000;
   border-right: 1px solid  #000000
+}
+.slideshowClass{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+#circleBar{
+  font-size: 70px;
+}
+#iframe{
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
