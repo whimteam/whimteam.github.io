@@ -27,7 +27,17 @@
 	</head>
 	
 	<body>
-	
+		<!--facebook message JavaScript SDK YOO-->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
+		
 		<!--sets up fixed/scrolling navigation bar-->
 		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
 			<div class="container-fluid">
@@ -71,6 +81,7 @@
 			<div class="page-content">
 			<!--Embed the game here-->
 			<p>The game isn't available to play yet. Check back tomorrow to see if there has been an update!</p>
+			<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"></div>
 			</div>
 		</div>
 		</br></br></br></br></br></br>
@@ -79,7 +90,7 @@
 		<!--footer-->
 		<div class="container-fluid">
 			<div class="page-footer">
-				<p class="text-muted"><b>WHIM 2015</b></p>
+				<p class="text-muted"><b>WHIM 2015</b></br><div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div></p>
 			</div>
 			
 		</div>
